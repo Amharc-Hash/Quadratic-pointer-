@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<math.h>
 void solve(double a, double b, double c, double* x1, double* x2) {
-	double k;
-	k = sqrt(pow(b, 2) - (4 * a * c));
-	*x1 = (-b + k) / (2 * a);
-	*x2 = (-b - k) / (2 * a);
+	double m;
+	m = sqrt(pow(b, 2) - (4 * a * c));
+	*x1 = (-b + m) / (2 * a);
+	*x2 = (-b - m) / (2 * a);
 }
 
 int main()
